@@ -1,0 +1,2 @@
+This is Second file for the Git test
+This modification done after adding the file to Staging Area.
