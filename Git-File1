@@ -1,0 +1,50 @@
+    1  vim /etc/ssh/sshd_config
+    2  systemctl restart sshd
+    3  passwd root
+    4  clear
+    5  git --version
+    6  cat /etc/os-release
+    7  yum update
+    8  yum install git
+    9  git --version
+   10  clear
+   11  pwd
+   12  mkdir Project1
+   13  ls
+   14  cd Project1/\
+   15  cd Project1/
+   16  ls
+   17  ls -a
+   18  git init
+   19  ls -a
+   20  cd .git
+   21  ls
+   22  cd ..
+   23  ls
+   24  cd Project1/
+   25  ls
+   26  vim Test.txt
+   27  ls
+   28  git status
+   29  git add Test.txt
+   30  git status
+   31  git commit -m "Test.txt file is create with hello"
+   32  git status
+   33  ls
+   34  git ls-files
+   35  cat Test.txt
+   36  cd Project1/
+   37  git status
+   38  vim Test.txt
+   39  git status
+   40  git add Test.txt
+   41  git status
+   42  git commit -m "Modified version 2"
+   43  git status
+   44  git log
+   45  git log --oneline
+   46  git show 264534b
+   47  cd /home/ec2-user/Project1/
+   48  ls
+   49  git status
+   50  history
